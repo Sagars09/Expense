@@ -1,0 +1,32 @@
+.section {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.section .sec-title {
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.section .sec-subtitle {
+    font-size: 20px;
+    color: #777;
+    padding-bottom: 50px;
+}
+
+#services {
+    background-color: #e0e0e0;
+}
+
+#services .box {
+    background-color: #1b6d85;
+    display: inline-block;
+    padding: 30px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+#services .fa {
+    font-size: 35px;
+    color: white;
+}
