@@ -2,13 +2,13 @@ package expense
 
 class ProfileController {
 
-    def beforeInterceptor = {
+    /*def beforeInterceptor = {
         if (!session.newUser) {
             flash.message = "Your Session has been expired!. Please login again"
             redirect(controller: "login", action: "index")
             return false
         }
-    }
+    }*/
 
     def index() {
         List loggedUser = User.findAllById(session.newUser)
